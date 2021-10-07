@@ -22,7 +22,5 @@
         <copy file="${lib}\${JdbcDriver}" todir="build/jar" overwrite="true" />
     </target>
 
-    <target name="run">
-        <java jar="build/jar/insertarPais.jar" fork="true"/>
-    </target>
+    
 </project>

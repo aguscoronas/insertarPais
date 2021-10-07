@@ -11,7 +11,7 @@ public class userInputTask implements Callable<String>{
         String nombrePais;
         System.out.print("Nombre del pais que quiere agregar: ");
         try(Scanner scanner = new Scanner(System.in)){
-            nombrePais = scanner.next();
+            nombrePais = scanner.nextLine();        
         }
         
         return nombrePais;
